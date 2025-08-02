@@ -7,7 +7,9 @@
 import React, { useState } from "react";
 import './register.css';
 import { toast } from "react-toastify";
-import contactimage from '../assets/contactimage.png'; 
+
+import contactimage from '../assets/contactimage.png';
+
 const Contacts = () =>{
              const [username, setusername] = useState('');
 const[email, setemail] = useState('');
