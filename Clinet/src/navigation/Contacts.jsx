@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import './register.css';
 import { toast } from "react-toastify";
 
-import contactimage from '../assets/contactimage.png';
+import contactimage from '../assets/contactimage.png'; // ✅ exact filename
 
 const Contacts = () =>{
              const [username, setusername] = useState('');
