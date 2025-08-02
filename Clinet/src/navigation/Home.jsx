@@ -42,7 +42,7 @@ import CountUp from 'react-countup';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaCheckCircle } from 'react-icons/fa';
-import Homeimage  from '../assets/Homeimage.png';
+import frontimage  from '../assets/frontimage.png';
 
 const Home = () => {
   useEffect(() => {
@@ -53,7 +53,7 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <div className="home-container" style={{
-        backgroundImage: `url(${Homeimage})`,
+        backgroundImage: `url(${frontimage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',

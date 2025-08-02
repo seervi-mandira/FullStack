@@ -6,7 +6,6 @@
 
 
 .home-container {
-  background-image: url('./src/assets/Home.png'); /* your image path */
   background-size: cover;
   background-position: center;
   height: 100vh;
