@@ -1,6 +1,6 @@
 // App.jsx (Main File)
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./navigation/Home.jsx";
 import About from "./navigation/About.jsx";
