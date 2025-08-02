@@ -120,7 +120,7 @@ function Adminusers() {
       const response = await fetch(`https://mern-y1sz.onrender.com/admin/delete/${id}`, {
         method: 'DELETE',
         headers: {
-          'Content-Type': 'application/json'
+        Authorization: `Bearer ${token}`,
         }
       });
 
