@@ -99,7 +99,8 @@ function Adminusers() {
       const response = await fetch('https://mern-y1sz.onrender.com/admin/user', {
         method: 'GET',
         headers: {
-          'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+
         }
       });
 
@@ -120,7 +121,7 @@ function Adminusers() {
       const response = await fetch(`https://mern-y1sz.onrender.com/admin/delete/${id}`, {
         method: 'DELETE',
         headers: {
-        Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json'
         }
       });
 

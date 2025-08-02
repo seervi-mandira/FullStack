@@ -7,6 +7,7 @@
 import React, { useState } from "react";
 import './register.css';
 import { toast } from "react-toastify";
+import contactimage from '../assets/contactimage.png'; 
 const Contacts = () =>{
              const [username, setusername] = useState('');
 const[email, setemail] = useState('');
@@ -48,7 +49,7 @@ toast.error('unable to send the message')
             <div style={{display:"flex", gap:'70px'}}>
              <div>
 <img
-  src="./src/assets/contact.png"
+  src={contactimage}
   alt="contact"
   style={{ width: 800, height: 550, filter: 'blur(1px)' }}
  className="contactimage"/>
